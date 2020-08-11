@@ -1,0 +1,257 @@
+/*
+    Theme Name : blog-javascript
+    Theme URI
+    Author: Ezequiel Gallardo
+    Description: sitios web de blog de viajes
+    Version: 1.0
+    Licence: GNU General Public Licence or later
+    Tags: HTML , CSS , Viajes , Blog
+*/
+
+body{
+    font-family:  Cuprum;
+}
+
+
+.align-items-center {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+  }
+
+  .category header{
+      margin-bottom: 50px;
+  }
+  header a {
+      color: white;
+      text-decoration: none;
+  }
+
+  header a:hover{
+      text-decoration: none;
+      color: white;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #B2BEC3;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-color: #B2BEC3;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+    background-color: #B2BEC3;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    position: absolute;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    right: 0px;
+    z-index: 10000;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+@media (max-width: 768px){
+   
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+    }
+
+
+    
+    
+   
+}
+
+
+
+.categoria li{
+    list-style: none;
+    
+}
+.categoria li a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease-out;
+
+}
+.categoria li a:hover{
+    text-decoration: none;
+    color: #B2BEC3;
+    font-weight: bold;
+}
+.card{
+
+margin: 10px;
+padding: 0px;
+transition: all 0.5s ease-out;
+overflow: hidden;
+border: 0px solid rgba(0,0,0,.125) !important;
+}
+
+.card:hover{
+    -webkit-box-shadow: 14px 18px 31px -5px rgba(0,0,0,0.68);
+-moz-box-shadow: 14px 18px 31px -5px rgba(0,0,0,0.68);
+box-shadow: 14px 18px 31px -5px rgba(0,0,0,0.68);
+}
+.img-fluid {
+    max-width: 100.%;
+    height: auto;
+}
+
+.btn{ 
+color:white;
+background: #FFAF7B;
+transition: all 0.5s ease-out;
+
+}
+.leer-mas{
+    color: #FFAF7B;
+    
+}
+.leer-mas:hover{
+text-decoration: none;
+color: #FFAF7B;
+
+}
+
+footer{
+    margin-top: 100px;
+    padding: 35px;
+    background-color: #FFAF7B;
+}
+footer .github a{
+    color: black;
+    font-size: 35px;
+}
+@media (min-width: 450px) and (max-width: 575px){
+    .col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+}
+
+@media (max-width: 446px){
+    .wave{
+        height: 0px;
+    }
+}
+
+@media (max-width: 328px){
+    .d-flex{
+        display: block !important;
+    }
+     ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -18px;
+}
+}
+
+
+
+
+
+.navbar-nav li{
+    padding: 20px;
+    text-align: center;
+}
+.navbar-nav li:hover{
+   
+}
+
+.body-publicacion{
+    
+    overflow: hidden;
+}
+
+.body-publicacion {
+
+    background-color: white;
+/* margin-top: -85px; */
+width: 95%;
+margin:  auto ;
+margin-top: -73px;
+padding: 35px;
+padding-bottom: 100px;
+border-radius: 10px;
+font-size: 25px;
+-webkit-box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.75);
+}
+
+
+
+@media (max-width: 991px){
+    .body-publicacion{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+  
+
+.body-publicacion {
+    background-color: white;
+    /* margin-top: -85px; */
+    margin:  auto ;
+    padding: 25px;
+    font-size: 25px;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-top: 0px;
+   
+}
+
+}
+
+.size-medium{
+    transform: scale(1.5) !important;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
